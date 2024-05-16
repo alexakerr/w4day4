@@ -10,7 +10,7 @@ const apiUrl = `https://gateway.marvel.com/v1/public/characters`;
 function BrowseCharacters() {
   const [characterData, setCharacterData] = useState('');
   const [characters, setCharacters] = useState([]);
-
+//
   const handleChange = (event) => {
     setCharacterData(event.target.value);
     console.log(characterData)

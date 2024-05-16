@@ -5,9 +5,9 @@ const Comics = () => {
         <div>
             <NavBar />
             <h2>Comics</h2>
-            <p>This page is under construction. Check back later!</p>
+            <p>This page is not available, try again!</p>
         </div>
     );
 };
 
-export default Comics;
+export default Comics;//
